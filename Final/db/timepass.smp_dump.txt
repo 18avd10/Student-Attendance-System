@@ -1,0 +1,30 @@
+
+State Machine - |timepass|nxt_cmd
+Name nxt_cmd.en_off nxt_cmd.go_back nxt_cmd.line2 nxt_cmd.disp_str nxt_cmd.mode_set nxt_cmd.disp_off nxt_cmd.disp_clr nxt_cmd.display_on nxt_cmd.function_set nxt_cmd.rst3 nxt_cmd.rst1 nxt_cmd.rst2 
+nxt_cmd.rst2 0 0 0 0 0 0 0 0 0 0 0 0 
+nxt_cmd.rst1 0 0 0 0 0 0 0 0 0 0 1 1 
+nxt_cmd.rst3 0 0 0 0 0 0 0 0 0 1 0 1 
+nxt_cmd.function_set 0 0 0 0 0 0 0 0 1 0 0 1 
+nxt_cmd.display_on 0 0 0 0 0 0 0 1 0 0 0 1 
+nxt_cmd.disp_clr 0 0 0 0 0 0 1 0 0 0 0 1 
+nxt_cmd.disp_off 0 0 0 0 0 1 0 0 0 0 0 1 
+nxt_cmd.mode_set 0 0 0 0 1 0 0 0 0 0 0 1 
+nxt_cmd.disp_str 0 0 0 1 0 0 0 0 0 0 0 1 
+nxt_cmd.line2 0 0 1 0 0 0 0 0 0 0 0 1 
+nxt_cmd.go_back 0 1 0 0 0 0 0 0 0 0 0 1 
+nxt_cmd.en_off 1 0 0 0 0 0 0 0 0 0 0 1 
+
+State Machine - |timepass|state
+Name state.en_off state.go_back state.line2 state.disp_str state.mode_set state.disp_off state.disp_clr state.display_on state.function_set state.rst3 state.rst2 state.rst1 
+state.rst1 0 0 0 0 0 0 0 0 0 0 0 0 
+state.rst2 0 0 0 0 0 0 0 0 0 0 1 1 
+state.rst3 0 0 0 0 0 0 0 0 0 1 0 1 
+state.function_set 0 0 0 0 0 0 0 0 1 0 0 1 
+state.display_on 0 0 0 0 0 0 0 1 0 0 0 1 
+state.disp_clr 0 0 0 0 0 0 1 0 0 0 0 1 
+state.disp_off 0 0 0 0 0 1 0 0 0 0 0 1 
+state.mode_set 0 0 0 0 1 0 0 0 0 0 0 1 
+state.disp_str 0 0 0 1 0 0 0 0 0 0 0 1 
+state.line2 0 0 1 0 0 0 0 0 0 0 0 1 
+state.go_back 0 1 0 0 0 0 0 0 0 0 0 1 
+state.en_off 1 0 0 0 0 0 0 0 0 0 0 1 
